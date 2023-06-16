@@ -85,11 +85,37 @@ a:hover {
     height: 50px; }
 
 .footer-logo {
-  height: 50px; }
+  height: 100px; }
 
 .nav-link {
   color: #000;
   font-weight: 500; }
+
+.logo-block {
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.logo-block .navbar-nav {
+  width: 100% !important;
+  align-items: center;
+}
+
+.logo-block .navbar-brand {
+  padding-left:0 !important;
+}
+
+.logo-block .navbar-brand img {
+  height: 90px;
+}
+
+.logo-block .nav-item {
+  width: 100%;
+}
+.logo-block .menu-block {
+  width: 100%;
+  justify-content: space-around;
+}
 
 #navbar-header {
   height: 100px; }
