@@ -4,12 +4,44 @@
  */
 html {
   overflow-x: hidden; }
+  body {
+    overflow-x: hidden;
+  }
+git  
 
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   color: #000;
-  background-color: #f4ede5; }
+  background-color: #fff; }
+
+  /* Hide the default scroll bar */
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+  background-color: #c0c0c0;
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #a0a0a0;
+}
+
+/* Add a subtle shadow to the handle */
+body::-webkit-scrollbar-thumb:active {
+  background-color: #808080;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3) inset;
+}
+
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   font-family: 'Josefin Sans', sans-serif;
