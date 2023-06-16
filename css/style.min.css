@@ -2,12 +2,10 @@
  *	Resto by GetTemplates.co
  *	URL: https://gettemplates.co
  */
-html {
-  overflow-x: hidden; }
   body {
     overflow-x: hidden;
   }
-git  
+
 
 body {
   font-family: 'Open Sans', sans-serif;
@@ -15,7 +13,6 @@ body {
   color: #000;
   background-color: #fff; }
 
-  /* Hide the default scroll bar */
 body::-webkit-scrollbar {
   width: 8px;
 }
