@@ -2,16 +2,16 @@
  *	Resto by GetTemplates.co
  *	URL: https://gettemplates.co
  */
-  body {
+  html, .boxed-page, body {
     overflow-x: hidden;
   }
 
-
+.boxed-page {overflow-y: hidden;}
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   color: #000;
-  background-color: #fff; }
+  background-color: #000; }
 
 body::-webkit-scrollbar {
   width: 8px;
@@ -126,13 +126,13 @@ a:hover {
 }
 
 .logo-block .navbar-nav {
-  width: 100% !important;
+  width: 60% !important;
   align-items: center;
 }
 
-.logo-block .navbar-brand {
+/* .logo-block .navbar-brand {
   padding-left:0 !important;
-}
+} */
 
 .logo-block .navbar-brand img {
   height: 90px;
@@ -255,7 +255,17 @@ a:hover {
   margin-bottom: 10px;
   box-shadow: 0px 24px 48px -12px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease; }
-
+.banner-section img, .banner-section .explore {
+  margin: 0 auto;
+}
+#gtco-welcome {
+  background-color: #C99D6E !important;
+  color: #fff;
+  margin-top: 100px;
+}
+#gtco-menu {
+  background-color: #FACBCB;
+}
 .heading-section {
   margin-bottom: 30px; }
 
@@ -567,7 +577,7 @@ a:hover {
 @media (max-width: 767px) {
   .hero-left,
   .hero-carousel .owl-item img {
-    height: 600px; }
+    height: auto; }
   .thumb-menu img {
     height: 90px; }
   .img-2 {
